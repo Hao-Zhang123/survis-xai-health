@@ -130,9 +130,9 @@
     "volume": "10",
     "number": "1",
     "pages": "1--12",
-    "type": "article",
+    "type": "review",
     "series": "DHJ",
-    "keywords": "type:application, data:ehr, issue:bias, focus:trust_and_adoption, method:shap, method:lime, method:pdp"
+    "keywords": "type:review, data:ehr, issue:bias, focus:trust_and_adoption, method:shap, method:lime, method:pdp"
   },
 
 "Ibrahimov2024MentalHealthXAI": {
