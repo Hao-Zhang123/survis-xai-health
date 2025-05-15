@@ -1,0 +1,171 @@
+﻿const generatedBibEntries = {
+
+  "Mienye2024XAIHealthcareSurvey": {
+    "title": "A Survey of Explainable Artificial Intelligence in Healthcare: Concepts, Applications, and Challenges",
+    "abstract": "This survey provides an overview of XAI techniques tailored for clinical contexts, focusing on how transparency influences trust and usability in diagnostic systems. It reviews symbolic and deep learning methods, maps current applications, and reveals challenges like balancing model performance with comprehensibility, especially in critical care and risk-sensitive decision-making.",
+    "author": "Mienye, Ibomoiye Domor and Obaido, Godwin",
+    "year": "2024",
+    "doi": "10.1016/j.compbiomed.2024.107456",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352914824001448",
+    "journal": "Informatics in Medicine Unlocked",
+    "publisher": "Elsevier",
+    "volume": "51",
+    "number": "",
+    "pages": "101587",
+    "type": "survey",
+    "series": "IMU",
+    "keywords": "type:survey, application:healthcare, focus:transparency, theme:critical care"
+},
+
+  "Chaddad2023XAITechniques": {
+    "title": "Survey of Explainable {AI} Techniques in Healthcare",
+    "abstract": "This paper reviews explainable AI methods in medical imaging and clinical decision support. It evaluates techniques like Grad-CAM, SHAP, and LIME for diagnostic clarity and highlights trade-offs between algorithmic accuracy and interpretability.",
+    "author": "Chaddad, Ahmad and Peng, Jihao and Xu, Jian and Bouridane, Ahmed",
+    "year": "2023",
+    "doi": "10.3390/s23020634",
+    "url": "https://www.mdpi.com/1424-8220/23/2/634",
+    "journal": "Sensors",
+    "publisher": "MDPI",
+    "volume": "23",
+    "number": "2",
+    "pages": "634",
+    "type": "survey",
+    "series": "Sensors",
+    "keywords": "type:survey, method:grad-cam, application:medical imaging, focus:interpretability"
+},
+
+  "Gambetti2025HumanCenteredXAI": {
+    "title": "A Survey on Human-Centered Evaluation of Explainable {AI} Methods in Clinical Decision Support Systems",
+    "abstract": "This human-centered XAI survey focuses on how clinicians interpret model outputs. It synthesizes studies evaluating user trust, cognitive load, and perceived system reliability, stressing ethical responsibility and design integration.",
+    "author": "Gambetti, Alessandro and Han, Qiwei and Shen, Hong and Soares, Cláudia",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2502.09849",
+    "url": "https://arxiv.org/abs/2502.09849",
+    "journal": "arXiv",
+    "publisher": "Cornell University",
+    "volume": "abs/2502.09849",
+    "pages": "1--10",
+    "type": "survey",
+    "series": "arXiv",
+    "keywords": "type:survey, theme:usability, focus:clinician trust, method:empirical evaluation"
+},
+
+  "Sun2025XAIReview": {
+    "title": "Explainable Artificial Intelligence for Medical Applications: A Review",
+    "abstract": "This paper explores explainability in data-rich medical environments including audio and imaging. It presents a taxonomy of explanation techniques and proposes co-design with healthcare stakeholders for improved integration.",
+    "author": "Sun, Qiyang and Akman, Alican and Schuller, Björn W.",
+    "year": "2025",
+    "doi": "10.1145/3709367",
+    "url": "https://dl.acm.org/doi/10.1145/3709367",
+    "journal": "ACM Transactions on Computing for Healthcare",
+    "publisher": "ACM",
+    "volume": "6",
+    "number": "2",
+    "pages": "1--31",
+    "type": "review",
+    "series": "TOCH",
+    "keywords": "type:review, input:multimodal, method:taxonomy, approach:stakeholder-involved"
+},
+
+  "Martino2022RemoteXAI": {
+    "title": "Explainable {AI} for Clinical and Remote Health Applications: A Survey",
+    "abstract": "Focusing on XAI in remote care and edge computing, this paper discusses interpretability trade-offs under latency and privacy constraints. It assesses the practical challenges of deploying transparent models in telemedicine settings.",
+    "author": "Di Martino, Flavio and Delmastro, Franca",
+    "year": "2022",
+    "doi": "10.1007/s10462-022-10304-3",
+    "url": "https://link.springer.com/article/10.1007/s10462-022-10304-3",
+    "journal": "Artificial Intelligence Review",
+    "publisher": "Springer",
+    "volume": "56",
+    "number": "3",
+    "pages": "5261--5315",
+    "type": "survey",
+    "series": "AIR",
+    "keywords": "type:survey, setting:remote, issue:latency, concern:privacy"
+},
+
+  "Kim2024XAIinCDSS": {
+    "title": "{XAI}-Based Clinical Decision Support Systems: A Systematic Review",
+    "abstract": "This systematic review analyzes XAI integration with clinical decision support systems (CDSS), classifying global vs. local explanation needs and highlighting improved decision transparency for ICU and oncology applications.",
+    "author": "Kim, Se Young and Kim, Dae Ho and Kim, Min Ji and Ko, Hyo Jin and Jeong, Ok Ran",
+    "year": "2024",
+    "doi": "10.3390/app14156638",
+    "url": "https://www.mdpi.com/2076-3417/14/15/6638",
+    "journal": "Applied Sciences",
+    "publisher": "MDPI",
+    "volume": "14",
+    "number": "15",
+    "pages": "6638",
+    "type": "review",
+    "series": "ApplSci",
+    "keywords": "type:review, application:cdss, level:global_vs_local, context:real-time, field:healthcare"
+},
+
+  "Musthafa2024BrainTumorXAI": {
+    "title": "Enhancing brain tumor detection in MRI images through explainable {AI} using {Grad-CAM} with Resnet {50}",
+    "abstract": "This study addresses the critical challenge of detecting brain tumors using MRI images, a pivotal task in medical diagnostics that demands high accuracy and interpretability. While deep learning has shown remarkable success in medical image analysis, there remains a substantial need for models that are not only accurate but also interpretable to healthcare professionals. This research introduces an integrated approach using ResNet50, a deep learning model, combined with Gradient-weighted Class Activation Mapping (Grad-CAM) to offer a transparent and explainable framework for brain tumor detection. The results demonstrate a significant improvement in model performance, with a testing accuracy of 98.52% and precision-recall metrics exceeding 98%, showcasing the model’s effectiveness in distinguishing tumor presence. The application of Grad-CAM provides insightful visual explanations, illustrating the model’s focus areas in making predictions.",
+    "author": "Mohamed Musthafa M, Mahesh T. R, Vinoth Kumar V & Suresh Guluwadi",
+    "year": "2024",
+    "doi": "10.1186/s12880-024-01292-7",
+    "url": "https://bmcmedimaging.biomedcentral.com/articles/10.1186/s12880-024-01292-7",
+    "journal": "BMC Medical Imaging",
+    "publisher": "Springer Nature",
+    "volume": "24",
+    "number": "107",
+    "pages": "1--19",
+    "type": "article",
+    "series": "BMCMI",
+    "keywords": "type:application, method:grad-cam, model:resnet50, application:brain_tumor, evaluation:accuracy_test"
+  },
+
+  "Caterson2024XAIinEHR": {
+    "title": "The Application of Explainable Artificial Intelligence {(XAI)} in Electronic Health Records",
+    "abstract": "This paper investigates XAI methods for EHRs, focusing on interpretability, bias mitigation, and long-term clinician trust. It reviews how explanation formats are received and their compliance with healthcare policy frameworks.",
+    "author": "Caterson, Jessica and Lewin, Alexandra and Williamson, Elizabeth",
+    "year": "2024",
+    "doi": "10.1177/20552076241272657",
+    "url": "https://journals.sagepub.com/doi/10.1177/20552076241272657",
+    "journal": "Digital Health",
+    "publisher": "SAGE Publications",
+    "volume": "10",
+    "number": "1",
+    "pages": "1--12",
+    "type": "article",
+    "series": "DHJ",
+    "keywords": "type:application, data:ehr, issue:bias, focus:trust_and_adoption, method:shap, method:lime, method:pdp"
+  },
+
+"Ibrahimov2024MentalHealthXAI": {
+    "title": "Explainable {AI} for Mental Disorder Detection via Social Media: A Survey and Outlook",
+    "abstract": "This survey addresses explainable AI applied to mental disorder detection using social media analysis. Ethical concerns such as stigma, bias, and privacy are emphasized, alongside evaluation of interpretability tools for NLP-based models.",
+    "author": "Ibrahimov, Yusif and Anwar, Tarique and Yuan, Tommy",
+    "year": "2024",
+    "doi": "10.48550/arXiv.2406.05984",
+    "url": "https://arxiv.org/abs/2406.05984",
+    "journal": "arXiv Preprint",
+    "publisher": "arXiv",
+    "volume": "abs/2406.05984",
+    "number": "",
+    "pages": "1--20",
+    "type": "survey",
+    "series": "arXiv",
+    "keywords": "type:survey, domain:mental_health, source:social_media, concern:ethics, method:interpretability, paradigm:nlp"
+},
+
+  "Gomez2024StrepThroatXAI": {
+    "title": "Explainable {AI} Decision Support Improves Accuracy During Remote Consultations for Strep Throat",
+    "abstract": "This study evaluates how explainable AI (XAI) strategies impact clinicians’ diagnosis accuracy, trust, and understanding during telehealth consultations for strep throat. Using randomized experiments involving 121 telehealth providers and three prototype CDSS (clinical decision support systems), the researchers compare Centor Score-based judgment with AI-supported decisions. The findings show that XAI-based CDSS improves diagnostic accuracy, especially with example-based explanations, but reveals lower trust compared to traditional clinical scores. This highlights the potential and the human-factor challenges in integrating AI into telehealth settings.",
+    "author": "Gomez, Catalina and Smith, Brittany-Lee and Zayas, Alisa and Unberath, Mathias and Canares, Therese",
+    "year": "2024",
+    "doi": "10.1038/s43856-024-00568-x",
+    "url": "https://www.nature.com/articles/s43856-024-00568-x",
+    "journal": "Communications Medicine",
+    "publisher": "Nature Portfolio",
+    "volume": "4",
+    "number": "1",
+    "pages": "1–11",
+    "type": "article",
+    "series": "CommMed",
+    "keywords": "type:application, setting:telehealth, application:diagnosis_support, method:user_study, evaluation:randomized_experiment, issue:trust"
+}
+};
