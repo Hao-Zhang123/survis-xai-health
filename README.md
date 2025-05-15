@@ -1,66 +1,75 @@
-# SurVis - Visual Literature Browser
+# SurVis-XAI-Health: A Literature Visualization on Explainable AI in Digital Health
 
-![Screenshot](/doc/survis.png)
+This repository hosts an interactive SurVis-based visual interface for exploring key research papers on **Explainable Artificial Intelligence (XAI)** in the domain of **Digital Health**. It presents a curated collection of 10 high-quality publications from 2022 to 2025, encompassing diverse application areas such as clinical decision support, mental health, electronic health records, and teleconsultation.
 
-SurVis is a flexible online browser to present and analyze scientific literature. The system is made for authors of survey articles, theses, or books who want to share their references in a user-friendly way. All you need to start is a bib file and a list of keywords for your papers.
+## 🔍 Focus of This Collection
 
-Test SurVis with a reference literature database: http://dynamicgraphs.fbeck.com
+- **Main Theme**: Explainable & Responsible AI in Digital Health
+- **Topics Covered**:
+  - Explainability methods (Grad-CAM, SHAP, LIME, etc.)
+  - Survey & systematic reviews on XAI frameworks
+  - XAI for EHRs, mental health, remote diagnosis, and brain tumor detection
+  - Ethical concerns such as fairness, trust, and privacy
+- **Publication Types**: Survey, Review, Applied Research, Experimental Studies
 
-## How To Use SurVis for Your Literature Collection
+## 🗂 Repository Structure
 
-Dowload the [latest SurVis release](https://github.com/fabian-beck/survis/releases/latest) or fork this repository.
+```bash
+.
+├── index.html              # Main SurVis interface
+├── about.html              # Project summary and documentation
+├── js/                     # Core SurVis JS logic
+├── styles/                 # Visual and layout stylesheets
+├── src/data/generated/
+│   ├── bib.js              # BibTeX-style entries for the 10 papers
+│   ├── available_img.js    # Available thumbnails for each paper
+│   ├── available_pdf.js    # PDF identifiers (if available)
+│   └── draw.py             # Python helper (if used for keyword analysis)
+├── src/papers_img/         # Thumbnail PNGs of each paper
+└── src/papers_pdf/         # (Optional) PDF files of papers
+```
 
-To start SurVis, open 'src/index.html' in your browser.
+## 📈 Visual Features (Powered by SurVis)
 
-The bibliography data is stored in 'bib/references.bib' in BibTeX format.
+- Timeline view of publication years
+- Keyword cloud with selector filtering
+- Author list and clustering by keyword similarity
+- BibTeX export and citation display
+- Color-coded categories for thematic grouping
 
-Supplemental data is contained in 'src/data/':
-* 'tag_categories.js': list of special tag categories; they can be used as a prefix for the tags and appear, for instance, 'a:b' refers to tag 'b' in tag category 'a'
-* 'authorized_tags.js': tags that are defined through a description (highlighted in SurVis, description appears as a tooltip)
-* 'search_stopwords.js': a list of stopwords used to exclude terms from search queries
-* 'papers_pdf' (optional): PDF files of the papers, please use the BibTeX id as a file name
-* 'papers_img' (optional): PNG thumbnails for the papers, please use the BibTeX id as a file name
+## 🌐 Online Deployment (GitHub Pages)
 
-Please do not edit the files in 'src/data/generated/' because they are created automatically. 
+To publish your visual interface live:
 
-After completing your changes, just run 'update_data.py' with Python 3. Reload SurVis in the browser to see the changed bibliography. The script will continue to check for updates on the bib file until you stop it.
+1. Push this repository to GitHub (e.g., `https://github.com/Hao-Zhang123/survis-xai-health`)
+2. Go to **Settings > Pages**
+3. Under “Source”, choose `main` branch and `/root`
+4. Your SurVis visual dashboard will be hosted at:
 
-If the edit mode is activated, BibTeX entries can be modified in the browser, but are not stored in the 'bib' directory. To make those changes persistent, use 'download BibTex' in SurVis and copy the BibTeX data to your bib file in the 'bib' directory. You can also use the features to save and load the data from local storage of the browser; be careful, however, these features are still experimental.
+```
+https://hao-zhang123.github.io/survis-xai-health/
+```
 
-Further properties of SurVis, such as the title of the page, can be modified in the file 'src/properties.js'. For the publication of your literature collection, you should usually deactivate the edit mode in the properties ('editable = false;').
+## 📚 Paper Sources
 
-Enjoy SurVis and send feedback if you like.
+All 10 publications are sourced from leading journals and conferences including:
+- IEEE JBHI
+- ACM TOCH
+- Nature Communications Medicine
+- Springer Artificial Intelligence Review
+- MDPI Sensors & Applied Sciences
+- SAGE Digital Health
+- arXiv (preprints)
 
-## Learn more
+## ✅ Coursework Context
 
-We've published a paper about SurVis at VAST 2015 - please reference it if you use or want to refer to SurVis in one of your publications. 
+This project was developed as part of the **COMP4037 Research Methods** coursework at the University of Nottingham, with a focus on **Responsible AI in Digital Health**. It demonstrates not only literature review capabilities, but also interactive data visualization and technical reproducibility.
 
-Beck, Fabian; Koch, Sebastian; Weiskopf, Daniel: Visual Analysis and Dissemination of Scientific Literature Collections with SurVis. In: IEEE Transactions on Visualization and Computer Graphics (2016).
+---
 
-* DOI: http://dx.doi.org/10.1109/TVCG.2015.2467757
-* Preview video: https://vimeo.com/136206061 
+**Author**: Hao Zhang  
+**Course**: COMP4037 – Research Methods  
 
-## List of Literature Collections Using SurVis
-
-* Dynamic Graph Visualization - http://dynamicgraphs.fbeck.com
-* Visualizing Group Structures in Graphs - http://groups-in-graphs.corinna-vehlow.com/
-* Performance Visualization - http://idav.ucdavis.edu/~ki/STAR/
-* Visualization for Software Reuse - http://www.cos.ufrj.br/~schots/survis_reuse/
-* Sparklines - http://sparklines-literature.fbeck.com/
-* Survey of Surveys - http://sos.swansea.ac.uk/
-* Visual Approaches for Analyzing Scientific Literature and Patents - http://ieg.ifs.tuwien.ac.at/~federico/LiPatVis/
-* Visualizing High-Dimensional Data - http://www.sci.utah.edu/~shusenl/highDimSurvey/website/
-* Visualization of Cultural Heritage Collection Data - https://danubevislab.github.io/collectionvis/
-* Survey of Visual Summaries - http://graphics.cs.wisc.edu/Vis/vis_summaries/
-* Optimization of Parallel Computing Systems - http://www.smemeti.com/slr/
-* Deep Learning Visualizations - https://snie2012.github.io/deep-learning-vis-collection/
-* Visualization in Astrophysics - https://tdavislab.github.io/astrovis-survis/
-* Categorical Visualisation Techniques - https://cat-vis.github.io/src/
-
-Please contact me (fabian.beck@uni-bamberg.de) if you know other collections using SurVis.
-
-## Contact
-
-Fabian Beck
-
-http://research.fbeck.com
+```
+© 2025 Hao Zhang – All rights reserved.
+```
